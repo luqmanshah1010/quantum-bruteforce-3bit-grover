@@ -1,4 +1,3 @@
-```python
 from qiskit import QuantumCircuit, transpile
 from qiskit_aer import Aer
 
@@ -43,3 +42,4 @@ counts = result.get_counts()
 # Step 7: Display results
 print("Measurement Results:")
 print(counts)
+
